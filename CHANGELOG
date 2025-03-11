@@ -1,0 +1,164 @@
+#1.2.6
+  - obsłużony został problem dodawania przesyłek w przypadku komunikatów ostrzeżeń (WB_1)
+  - dostosowanie modułu do wersji 8.* (WB_2)
+  - obsłużony został problem przygotowania formularzy dla każdego zamówienia (czyszczenie pól po zapisie poprzedniego zamówienia) (WB_3)
+  - rozwiazany został problem zmiany adresu wysyłki dla zamówienia podczas gdy przesyłka jest jeszcze w otwartym zbiorze (WB_4)
+  - Wyeliminowanie problemu z brakiem wyboru punktu odbioru w przypadku wybrania „Zakupy na jednej stronie” dla wersji (1.6.*) (WB_6)
+  - Optymalizacja zapytań dla Listy zbiorów i zamówień (WB_7)
+  - w przypadku rezygnacji OWP poprawiony został bład czyszczenia wyboru tej wysyłki (WB_8)
+  - Dostosowanie modułu do zmian związanych z uruchomieniem Automatów Pocztowych (WB_9)
+#1.2.4
+  - dla przesyłek Kurier 48 przekazywanie masy tylko wtedy, gdy jest zadeklarowana wartość i masa uzupełniona (#316)
+#1.2.3
+  - dodanie obsługi Pocztex 2021 Kurier oraz Pocztex 2021 Na Dziś (#248)
+#1.2.2
+  - uzupełnianie daty nadania przesyłki planowaną datą nadania zbioru. (#154)
+  - moduł akceptuje zarówno numer telefonu komórkowego jak i zwykły numer telefonu. (#151)
+
+#1.2.1
+  - przekazywanie wygenerowanego numeru listu przewozowego do przewoźników PrestaShop (#40)
+  - zmiana sposobu generowania przycisku "Wybierz z mapy" dla PrestaShop 1.7 (#129)
+
+#1.2.0
+  - poprawienie przekazywania parametru: Sprawdzenie zawartości przez odbiorcę w Pocztex 48 (#28)
+
+#1.1.6
+  - poprawienie sposobu generowania formularza wysyłki na karcie zamówienia.
+  - dodanie fraz w j. polskim w ten sposób, aby można je było przetłumaczyć na inne języki w panelu administracyjnym.
+
+#1.1.5 Raport RZT-PRESTA_EN-161.xls
+  - 2: Pojawia się błąd, po wejściu w zamówienia/zbiory w moduł Poczta Polska.
+  - 4: Dokonałem jednego zamówienia i jednej płatności czekiem.
+      Wtyczka pokazała je w 4 pozycjach - moim zdaniem to błąd wymagający analizy.
+      może to się przyda: "Nie zapomnij podać identyfikatora Twojego zamówienia QTUOQDNZH."
+      Przy kolejnym zamówieniu powtórka z rozrywki - 5 pozycji
+      Nie zapomnij podać identyfikatora Twojego zamówienia YXPNVNIMY.
+  - 5: Po utworzeniu przesyłki prezentowany jest identyczny numer dla zdublowanych pozycji.
+  - 6: Możliwość dodania wiadomości dodatkowej na etykiecie:
+       w ustawieniach w polu "Opis przesyłki" wkleiłem zmienną {message} - brak wiadomościMożliwość dodania wiadomości dodatkowej na etykiecie:
+      w ustawieniach w polu "Opis przesyłki" wkleiłem zmienną {message} - brak wiadomości
+  - 7: Dodałem wiadomość w komentarzu podczas składania zamówienia, niestety przy tworzeniu przesyłki jest inna, pomimo innych ustawień
+
+#1.1.4
+  -https://pp.softdeco.pl/issues/1538 #1538 #PrestaEN nieprawidłowe działanie mapy punktu odbioru
+  -https://pp.softdeco.pl/issues/1497 #1497 #PrestaEN Możliwość dodania wiadomości dodatkowej na etykiecie-N0PC0
+  -https://pp.softdeco.pl/issues/1501 #1501 #PrestaEN wymagalność dodania numeru telefonu przy Odbiorze w Punkcie-N0PC0
+  -https://pp.softdeco.pl/issues/1505 #1505 #PrestaEN zmiana nazwy przycisku-N0PC0
+  -https://pp.softdeco.pl/issues/1506 #1506 #PrestaEN odczytywanie statusów przesyłek i przekazywanie do modułu-N0PC0
+  -https://pp.softdeco.pl/issues/1544 #1544 #PrestaEN dostosowanie do modyfikacji systemu EN, w wersji 11-N0PC0
+  -https://pp.softdeco.pl/issues/1584 #1584 #PrestaEN - Pobranie adresu do mapy placówek punktu odbioru-N0PC0
+
+#1.1.3
+  -https://pp.softdeco.pl/issues/1538 #1538 #PrestaEN nieprawidłowe działanie mapy punktu odbioru
+
+#1.1.2
+  -https://pp.softdeco.pl/issues/1500 #1500 #PrestaEN brak możliwości wpisania firmy
+  -https://pp.softdeco.pl/issues/1515 #1515 #PrestaEN Błąd w przesyłkach za pobraniem
+
+#1.1.1
+  - Brak blokady przejścia dalej przy wyborze punktu odbioru (#214)
+
+#1.1.0
+  - Zmiana numeracji paczki
+  - Wyrzucenie zbędnych komentarzy w kodzie
+  - Dopisanie brakujacych komentarzy przy metodach
+  - Usunięcie błędu związanego z usuwaniem przeterminowanych zbiorów starszych niż 30 dni - wraz z usunięciem zbioru usunięte były wysłane przesyłki z tego zbioru
+
+#1.0.13
+  - Przesyłka firmowa polecona(#207) (A - RzTA_4696_PrestaSHOP_1.0.12.docx)
+  - Pocztex Kurier 48 - wartość ubezpieczenia(#208) (B - RzTA_4696_PrestaSHOP_1.0.12.docx)
+  - Interfejs do dodawania przesyłek (#172) (C - RzTA_4696_PrestaSHOP_1.0.12.docx)
+  - W trybie debugu bład przy wejściu do wtyczki (F - RzTA_4696_PrestaSHOP_1.0.12.docx)
+  - Zbiór nie zmienia statusu (G - RzTA_4696_PrestaSHOP_1.0.12.docx)
+
+#1.0.12
+  - Zaznaczanie aktywnego zbioru kolorem (#184)
+  - Interfejs do dodawania przesyłek (#172)
+  - Zamówienie dodanie przycisku Pobierz Etykietę (#189)
+  - Zmiana wysyłania przesyłek (#205)
+  - Zmiana symboli przesyłek (#206)
+  - Obowiązek RODO we wtyczce(#202)
+  - Kwestia powiadomienia o odinstalowaniu wtyczki (#204)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11,1.6.1.19,1.7.5.0
+
+#1.0.11
+  - Przy zmianie nie aktualnym Haśle występuje błąd (#190)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11,1.6.1.19,1.7.5.0
+
+#1.0.10
+  - MIEJSCE ODBIORU (#198)
+  - Aktualizacja dokumentacji do wersji 1.7 (#196)
+  - Opcja wielopaczkowości w usłudze Odbiór w Punkcie (#194)
+  - Wielopaczkowość, nie przenosi parametrów (#193)
+  - Brak urzędu nadania w na liście (#191)
+  - Przy zmianie nie aktualnym Haśle występuje błąd (#190)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11,1.6.1.19,1.7.5.0
+
+#1.0.9
+  - Brak odświeżenia widoku po usunięciu  przesyłki (#185)
+  - Błąd weryfikacji numerLokalu wersja 1.7 (#181)
+  - błedy dla php 7.3
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.8
+  - Okna nadawania przesyłki w zakładce Zamówieniaa (#183)
+  - brak reakcji na zmianę urzędu nadania (#181)
+  - masa przesyłki - separator dzięsiętny (#180)
+  - Zamówienia - opcja spakuj (#179)
+  - Usługi - przesyłka firmowa polecona - obszar (#178)
+  - Zmiana adresu @ wysyłki informacji (#146)
+  - Dodanie instrukcji PDF (#144)
+  - Opcje dodatkowe Pocztex (#117)
+  - Zamówienia/Widok Zamówienia (#65)
+  - Dostosowanie paczki do Presta 1.7.x
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.7
+  - Przenoszenie numeru zamówienia (#173)
+  - Ukrycie hasła (#170)
+  - Powstanie dwóch zbiorów z tą samą nazwą z jednego dnia (#166)
+  - Domyślna masa przesłek listowych (#163)
+  - Filtrowanie Zbiory (#162)
+  - Podgląd zbioru dodanie nazwy zbioru (#158)
+  - Zmiana adresu @ wysyłki informacji (#146)
+  - Dodanie instrukcji PDF (#144)
+  - Zamówienia/Widok Zamówienia (#65)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.6
+  - Wybranie z działania masowego pobierz Etykiety (#165)
+  - Zamów Kuriera Brak czynności (#154)
+  - Tworzenie Pakowanie przesyłek (#141)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.5
+  - Usunięcie atrybutów dla przesyłki polecone (#164)
+  - Wprowadzenie panelu z linkiem do ślezdenie w podglądzie zamówienia (#160)
+  - Pojawianie się "O" w numerze zamówienia (#159)
+  - Sapkuj nie działa na jednym zamówieniu (#157)
+  - Brak Mapy OwP (#156)
+  - Zamów Kuriera Brak czynności - zmiana przycisku na Wyślij oraz zmiana na kg (#154)
+  - Zmiana nazwy buttona 1.0.3 (#151)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.4
+  - poprawione zostały wyskakujace notice i warninigi (#152)
+  - poprawione została obsługa przesyłek dla 1.6.0.x (kłopot z krajami zawierającymi dziwne prefixy)
+  - testy automatyczne zostały wykonane na wersjach 1.6.0.11 oraz 1.6.1.19
+
+#1.0.3
+  - poprawione zostały wyskakujace notice i warninigi (#147)
+  - poprawiona została synchronizacja zbiorów usuniętych z en (#149)
+  - poprawiona została optymalizacja zarządzania sesją w której trzymamy parametry do synchronizacji danych
+  - optymalizacja wyświetlania listy zamówień]
+
+#1.0.2
+  - poprawione zostały wyskakujace notice i warninigi (screenshot z czerwonymi ekranami od klienta)
+  - ujednolicone zostały metody do wykorzystania danych z formularzy (fatal error ze zgłoszenie klienta)
+  - poprawione zostały błędy które wyszły podczas testowania (nie zapisywały się: Ustawienia->Usługi->Global Express pole: Zawartość przesyłki, źle odczytywał się parametr Ustawienia->Dostawa->Pocztex->Odbiór w punkcie dla przesyłek pobraniowych )
+  - poprawione zostało wyświetlanie informacji o paczce w podglądzie zamówienia
+
+#1.0.1
+#1.0.0
+  - poprawione zostało wyświetlanie wyskakującego okna do wyboru w punkcie
+  - poprawiona została obsługa dodania wielupaczek w przypadku gdy nie jest aktywny żaden zbiór (błąd dodawania zbioru per paczka)
