@@ -1,3 +1,11 @@
+#1.2.7-alt1
+  - Dostosowanie do PrestaShop 8.2.1 i PHP 8.1 (WB_10)
+  - Poprawione metody w addpoint.php – zastąpienie displayContent() przez initContent() (WB_11)
+  - Dodane typowanie zmiennych zgodne z PHP 8.1 (WB_12)
+  - Zabezpieczenie zapytań SQL – poprawione pSQL() i rzutowanie zmiennych (WB_13)
+  - Obsługa błędów braku rozszerzenia SOAP – sprawdzanie i komunikat o konieczności instalacji (WB_14)
+  - Optymalizacja wydajności – usunięcie zbędnych wywołań do bazy danych w procesie zapisu zamówień (WB_15)
+  - Poprawione logowanie błędów – dodanie bardziej czytelnych komunikatów do systemowego logu PrestaShop (WB_16)
 #1.2.6
   - obsłużony został problem dodawania przesyłek w przypadku komunikatów ostrzeżeń (WB_1)
   - dostosowanie modułu do wersji 8.* (WB_2)
