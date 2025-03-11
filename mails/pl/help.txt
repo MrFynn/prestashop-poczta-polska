@@ -1,0 +1,18 @@
+Od: {name_surname}
+Adres e-mail nadawcy:{email}
+Temat: {subject}
+
+---------------------------------------------------------------------------
+
+{content}
+
+---------------------------------------------------------------------------
+
+Numer karty: {karta}
+Adres sklepu: {www}
+Nazwa sklepu: {shop_name}
+Data i czas: {date_time}
+Wersja wtyczki: {version}
+Data wtyczki: {date_version}
+Wersja PrestaShop: {prestashop_version}
+Wersja PHP: {php_version}

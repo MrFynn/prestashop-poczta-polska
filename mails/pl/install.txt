@@ -1,0 +1,9 @@
+Od: {name_surname}
+Adres e-mail nadawcy:{email}
+Temat: {subject}
+
+---------------------------------------------------------------------------
+Numer karty: {karta}
+Wersja wtyczki: {version}
+Strona www: {www}
+

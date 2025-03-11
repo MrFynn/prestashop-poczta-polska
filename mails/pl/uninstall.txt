@@ -1,0 +1,15 @@
+Od: {name_surname}
+Adres e-mail nadawcy:{email}
+Temat: {subject}
+
+---------------------------------------------------------------------------
+Numer karty: {karta}
+Wersja wtyczki: {version}
+Strona www: {www}
+
+Wycofanie zgody na przetwarzanie danych osobwych: TAK
+Wycofanie zgody na otrzymywanie powiadomień: TAK
+
+Pamiętaj o zaprzestaniu przetwarzania i usunięciu wszystkich danych klienta w ramach wtyczki do Prestashop
+
+

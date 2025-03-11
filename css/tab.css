@@ -1,0 +1,9 @@
+.icon-AdminPocztaPolskaSettings:before, .icon-AdminPocztaPolskaSettings:before { position: relative;top:2px;content: url(../img/logo_menu_icon.png); }
+#ui-datepicker-div {z-index: 9999999;}
+#subtab-AdminPocztaPolskaSettings .material-icons,#subtab-AdminPocztaPolskaOrders .material-icons,#subtab-AdminPocztaPolskaCouriers .material-icons{
+    display: none;
+}
+#subtab-AdminPocztaPolskaSettings a:before,#subtab-AdminPocztaPolskaOrders a:before,#subtab-AdminPocztaPolskaCouriers a:before{
+    position: relative;top:2px;content: url(../img/logo_menu_icon.png);
+}
+

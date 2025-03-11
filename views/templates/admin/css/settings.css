@@ -1,0 +1,19 @@
+.fixed-width-xxxl{width:300px !important;}
+.checkbox{
+   padding-left: 60px;
+   margin-top: 2px !important;
+   margin-bottom: 2px !important;
+   
+}
+.checkbox label{
+    font-weight: bold !important;
+}
+.bootstrap .row{
+    margin:auto;
+}
+
+.bootstrap h4{
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+

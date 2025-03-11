@@ -1,0 +1,349 @@
+.datepicker.hasDatepicker .ui-datepicker-inline {display:none !important;}
+
+#pocztapolskaen_order_detail .panel
+{
+    background-color: #fff;
+    border: 1px solid #d3d8db;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-sizing: border-box;
+}
+#pocztapolskaen_order_detail .panel .panel-heading
+{
+  border:none;
+  font-weight: 600;
+  border-bottom:1px solid #eee;
+  font-size:1rem;
+  line-height: 2.3rem;
+  margin:-20px -16px 15px;
+  padding:0 0 0 5px;
+}
+
+#pocztapolskaen_order_detail .panel .panel-heading i {
+  font-family: Material Icons;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  margin:7px 10px 0px 0px;
+  float:left;
+}
+
+#pocztapolskaen_order_detail .icon-plane::before {
+    content: "local_shipping";
+}
+
+#pocztapolskaen_order_detail .form-horizontal .form-group::after, #pocztapolskaen_order_detail .form-horizontal .form-group::before {
+    content: " ";
+    display: table;
+}
+
+#pocztapolskaen_order_detail label.control-label {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    float:left;
+}
+
+#pocztapolskaen_order_detail .form-horizontal .control-label {
+    margin-bottom: 0;
+    padding-top: 7px;
+    text-align: right;
+}
+
+#pocztapolskaen_order_detail  .col-lg-8 {display:inline-block;}
+
+#pocztapolskaen_order_detail .form-control,
+#pocztapolskaen_order_detail input[type="password"],
+#pocztapolskaen_order_detail input[type="search"],
+#pocztapolskaen_order_detail input[type="text"],
+#pocztapolskaen_order_detail select,
+#pocztapolskaen_order_detail textarea {
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    background-color: #f5f8f9;
+    background-image: none;
+    border: 1px solid #c7d6db;
+    border-radius: 3px;
+    color: #555;
+    display: block;
+    font-size: 12px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 6px 8px;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    width: 100%;
+}
+
+#pocztapolskaen_order_detail input[type="email"],
+#pocztapolskaen_order_detail input[type="password"],
+#pocztapolskaen_order_detail input[type="search"],
+#pocztapolskaen_order_detail input[type="tel"],
+#pocztapolskaen_order_detail input[type="text"] {
+    font-family: Open Sans,Helvetica,Arial,FontAwesome,sans-serif !important;
+}
+
+#pocztapolskaen_order_detail .input-group .form-control,
+#pocztapolskaen_order_detail .input-group input[type="password"],
+#pocztapolskaen_order_detail .input-group input[type="search"],
+#pocztapolskaen_order_detail .input-group input[type="text"],
+#pocztapolskaen_order_detail .input-group select,
+#pocztapolskaen_order_detail .input-group textarea {
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+
+#pocztapolskaen_order_detail .form-control[disabled],
+#pocztapolskaen_order_detail .form-control[readonly],
+#pocztapolskaen_order_detail input[disabled][type="password"],
+#pocztapolskaen_order_detail input[disabled][type="search"],
+#pocztapolskaen_order_detail input[disabled][type="text"],
+#pocztapolskaen_order_detail input[readonly][type="password"],
+#pocztapolskaen_order_detail input[readonly][type="search"],
+#pocztapolskaen_order_detail input[readonly][type="text"],
+#pocztapolskaen_order_detail select[disabled],
+#pocztapolskaen_order_detail select[readonly],
+#pocztapolskaen_order_detail textarea[disabled],
+#pocztapolskaen_order_detail textarea[readonly]
+{
+    background-color: #eee;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+#pocztapolskaen_order_detail .close {
+    color: #000;
+    filter: alpha(opacity=20);
+    float: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    opacity: .2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#pocztapolskaen_order_detail .modal-header .close {
+    margin-top: -2px;
+}
+
+#pocztapolskaen_order_detail button.close {
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+#pocztapolskaen_order_detail .close:focus, #pocztapolskaen_order_detail .close:hover {
+    color: #000;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+    text-decoration: none;
+}
+
+#pocztapolskaen_order_detail button.close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0px;
+}
+
+#pocztapolskaen_order_detail .modal-header {
+  border-bottom: 1px solid #e5e5e5;
+  display:block;
+  padding:10px 5px;
+}
+
+#pocztapolskaen_order_detail .modal-header h4 {font-size:15px;font-weight:400}
+
+#pocztapolskaen_order_detail .modal-footer {
+  border-top: 1px solid #e5e5e5;
+  padding: 15px 5px 0px 5px;
+}
+
+#pocztapolskaen_order_detail .modal-title {width:100%;clear:both;}
+
+#pocztapolskaen_order_detail .modal-body {padding:5px;}
+#packModal .panel {float:left;}
+#packModal .form-group {clear:both;}
+
+
+#pocztapolskaen_order_detail #services .panel-heading {margin:0px -5px;font-size:14px;}
+#pocztapolskaen_order_detail #services label.control-label {padding-left:5px;padding-right:5px;}
+
+
+#pocztapolskaen_order_detail .help-block {
+    color: #959595;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-style: italic;
+    font-size:12px;
+}
+
+#pocztapolskaen_order_detail .fixed-width-lg {width: 160px !important;}
+#pocztapolskaen_order_detail .fixed-width-xxl {width: 200px !important;}
+
+#pocztapolskaen_order_detail .switch {display: block;height: 26px;position: relative;}
+#pocztapolskaen_order_detail .prestashop-switch {-webkit-box-shadow: rgba(0,0,0,.15) 0 1px 4px 1px inset;background-color: #eee;border-radius: 3px;box-shadow: inset 0 1px 4px 1px rgba(0,0,0,.15);color: #333;margin-top: 3px;text-align: center;}
+#pocztapolskaen_order_detail .switch input {
+    opacity: 0;
+    position: absolute;
+}
+
+#pocztapolskaen_order_detail label {
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#pocztapolskaen_order_detail .switch * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#pocztapolskaen_order_detail .prestashop-switch * {
+    outline: 0 !important;
+}
+
+#pocztapolskaen_order_detail .switch > span,
+#pocztapolskaen_order_detail .switch label {
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+#pocztapolskaen_order_detail .switch label {
+    float: left;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 2;
+}
+
+#pocztapolskaen_order_detail .prestashop-switch label {
+    -webkit-transition: color .2s ease-out;
+    color: #bbb;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: color .2s ease-out;
+}
+
+#pocztapolskaen_order_detail .prestashop-switch input:checked + label {
+    color: #fff;
+}
+
+#pocztapolskaen_order_detail .switch a {
+    -webkit-transition: all .3s ease-out;
+    display: block;
+    transition: all .3s ease-out;
+}
+
+#pocztapolskaen_order_detail .switch a {
+    -webkit-box-shadow: "#1B7088" 0 -1px 0 inset;
+    background-color: #2eacce;
+    border: 1px solid #279cbb;
+    box-shadow: inset 0 -1px 0 "#1B7088";
+    color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+}
+
+#pocztapolskaen_order_detail .switch input:last-of-type:checked ~ a {
+    -webkit-box-shadow: "#5C5C5C" 0 -1px 0 inset;
+    background-color: #e08f95;
+    border: 1px solid #ca6f6f;
+    box-shadow: inset 0 -1px 0 "#5C5C5C";
+    left: 50%;
+}
+
+#pocztapolskaen_order_detail .switch input:disabled ~ a {
+    -webkit-box-shadow: #b3b3b3 0 -1px 0 inset !important;
+    background-color: #cdcdcd !important;
+    border: 1px solid #b3b3b3 !important;
+    box-shadow: inset 0 -1px 0 #b3b3b3 !important;
+}
+
+#pocztapolskaen_order_detail .input-group {border-collapse: separate;display: table;position: relative;}
+
+#pocztapolskaen_order_detail .input-group-addon,
+#pocztapolskaen_order_detail .input-group-btn,
+#pocztapolskaen_order_detail .input-group .form-control,
+#pocztapolskaen_order_detail .input-group input[type="password"],
+#pocztapolskaen_order_detail .input-group input[type="search"],
+#pocztapolskaen_order_detail .input-group input[type="text"],
+#pocztapolskaen_order_detail .input-group select,
+#pocztapolskaen_order_detail .input-group textarea {
+    display: table-cell;
+}
+
+#pocztapolskaen_order_detail .input-group-addon,
+#pocztapolskaen_order_detail .input-group-btn {
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 1%;
+}
+
+#pocztapolskaen_order_detail .input-group-addon {
+    background-color: #f5f8f9;
+    border: 1px solid #c7d6db;
+    border-left-color: rgb(199, 214, 219);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 6px 8px;
+    text-align: center;
+}
+#pocztapolskaen_order_detail .input-group input:first-child[type="text"] {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+#pocztapolskaen_order_detail .input-group-addon:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#pocztapolskaen_order_detail .input-group-addon:last-child {
+    border-left: 0;
+}
+
+#pocztapolskaen_order_detail .btn-default {
+    background-color: #fff;
+    border-color: #dedede;
+    color: #363a41;
+}
